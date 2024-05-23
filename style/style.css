@@ -1,0 +1,143 @@
+@import url(font.css);
+
+.header {
+    height: 100vh;
+}
+
+.nav {
+    background: rgb(56, 54, 54);
+    padding: 20px;
+}
+
+
+.navbar-info {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-link {
+    color: white !important;
+    font-size: 25px;
+    font-family: 'MB';
+}
+
+.navbar-icon {
+    color: white;
+}
+
+.header-content {
+    position: relative;
+}
+
+.header-content__image {
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+}
+
+.header-content__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.header-content__title {
+    color: white;
+    font-size: 70px;
+    font-family: 'PR';
+}
+
+.header-content__btn {
+    background: white;
+    color: black;
+    font-family: 'MB';
+    line-height: 15px;
+    font-size: 16px;
+    padding: 17px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 300ms;
+}
+
+.main {
+    background: rgb(24, 19, 19);
+    padding-top: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.airpods-row {
+    padding-top: 50px;
+}
+
+.airpods-text {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'MR';
+    color: white;
+}
+
+.case-text {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'MR';
+    color: white;
+    padding-top: 180px;
+}
+
+.headphone {
+    margin-top: 40px;
+}
+
+.headphone-text__left {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'MR';
+    color: white;
+}
+
+.headphone-line {
+    background-color: white;
+    height: 5px;
+    width: 150px;
+    margin-left: 25px;
+}
+
+.headphone-text__right {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'MR';
+    color: white;
+
+}
+
+.catalog {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn {
+    background: black !important;
+    padding: 5px 60px !important;
+}
+
+.footer {
+    background: rgb(56, 54, 54);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-line {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
